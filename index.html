@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Giro Magazzino – Informativa privacy</title>
+<style>
+  :root {
+    --verde: #17624A;
+    --verde-scuro: #0D3F2F;
+    --testo: #1C1C1E;
+    --secondario: #5B5B60;
+    --linea: #E3E6E4;
+    --sfondo: #F2F4F3;
+    --carta: #FFFFFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --verde: #34A882;
+      --testo: #F2F2F7;
+      --secondario: #A8A8AE;
+      --linea: #2C2F2D;
+      --sfondo: #111312;
+      --carta: #1C1E1D;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--sfondo);
+    color: var(--testo);
+    font-family: ui-rounded, "SF Pro Rounded", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, #1C7052, var(--verde-scuro));
+    color: #fff;
+    padding: 48px 24px 40px;
+  }
+  .contenitore {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  .app {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+  .icona {
+    width: 52px;
+    height: 52px;
+    border-radius: 13px;
+    background: rgba(255,255,255,0.14);
+    display: grid;
+    place-items: center;
+    flex: none;
+  }
+  .app strong { display: block; font-size: 19px; }
+  .app span { opacity: 0.8; font-size: 15px; }
+  h1 {
+    font-size: 34px;
+    line-height: 1.15;
+    margin: 0 0 10px;
+    font-weight: 700;
+  }
+  header p { margin: 0; opacity: 0.88; max-width: 60ch; }
+  main { padding: 28px 24px 56px; }
+  .riassunto {
+    background: var(--carta);
+    border-radius: 18px;
+    padding: 20px 22px;
+    margin: -52px 0 28px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  }
+  .riassunto h2 { margin-top: 0; }
+  .riassunto ul { margin: 0; padding-left: 20px; }
+  .riassunto li { margin: 4px 0; }
+  section { margin: 0 0 30px; }
+  h2 {
+    font-size: 21px;
+    line-height: 1.3;
+    margin: 0 0 8px;
+    color: var(--testo);
+  }
+  p, li { max-width: 68ch; }
+  p { margin: 0 0 12px; }
+  ul { padding-left: 20px; margin: 0 0 12px; }
+  a { color: var(--verde); font-weight: 600; }
+  .contatto {
+    background: var(--carta);
+    border-radius: 14px;
+    padding: 14px 18px;
+    display: inline-block;
+  }
+  footer {
+    border-top: 1px solid var(--linea);
+    padding-top: 18px;
+    color: var(--secondario);
+    font-size: 15px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="contenitore">
+    <div class="app">
+      <div class="icona" aria-hidden="true">
+        <svg width="30" height="30" viewBox="0 0 32 32" fill="none">
+          <circle cx="16" cy="16" r="12" stroke="rgba(255,255,255,0.3)" stroke-width="3.5"/>
+          <path d="M16 4 A12 12 0 1 1 4.6 19.7" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+          <path d="M16 10.5 L21 13.3 L16 16.1 L11 13.3 Z" fill="#F5A524"/>
+          <path d="M11 13.3 L16 16.1 L16 21.6 L11 18.8 Z" fill="#fff"/>
+          <path d="M16 16.1 L21 13.3 L21 18.8 L16 21.6 Z" fill="#C9E3D9"/>
+        </svg>
+      </div>
+      <div>
+        <strong>Giro Magazzino</strong>
+        <span>di Luca Cotugno</span>
+      </div>
+    </div>
+    <h1>Informativa sulla privacy</h1>
+    <p>Come l'app tratta i dati che inserisci. In breve: restano sul tuo dispositivo e nel tuo iCloud, e lo sviluppatore non li vede.</p>
+  </div>
+</header>
+
+<main>
+  <div class="contenitore">
+    <div class="riassunto">
+      <h2>In sintesi</h2>
+      <ul>
+        <li>Non serve creare un account.</li>
+        <li>I dati restano sul tuo iPhone o iPad e, se usi iCloud, nel tuo spazio iCloud privato.</li>
+        <li>Lo sviluppatore non riceve e non può leggere i tuoi dati.</li>
+        <li>Nessuna pubblicità, nessuna statistica d'uso, nessun tracciamento.</li>
+        <li>Nessun dato viene venduto o ceduto a terzi.</li>
+      </ul>
+    </div>
+
+    <section>
+      <h2>Chi è il titolare</h2>
+      <p>L'app Giro Magazzino è sviluppata da Luca Cotugno. Per qualsiasi domanda sulla privacy puoi scrivere a:</p>
+      <p class="contatto"><a href="mailto:Supporto@app-net.uk">Supporto@app-net.uk</a></p>
+    </section>
+
+    <section>
+      <h2>Quali dati inserisci nell'app</h2>
+      <p>L'app serve a gestire il magazzino di un locale. Contiene solo quello che scrivi tu:</p>
+      <ul>
+        <li>zone del magazzino, prodotti, quantità, scorte e prezzi;</li>
+        <li>fornitori, con nome, numero di telefono ed email se li inserisci;</li>
+        <li>ordini, consegne, liste "Da portare" e destinazioni;</li>
+        <li>il nome del locale e il testo dei messaggi d'ordine.</li>
+      </ul>
+      <p>I dati dei fornitori che inserisci sono dati di altre persone o aziende: li gestisci tu, per il tuo lavoro.</p>
+    </section>
+
+    <section>
+      <h2>Dove vengono salvati</h2>
+      <p>Tutto viene salvato sul tuo dispositivo. Se hai iCloud attivo, l'app usa il tuo database privato iCloud di Apple per tenere allineati i tuoi dispositivi con lo stesso Apple ID. Questi dati sono legati al tuo account Apple e sono soggetti all'informativa privacy di Apple: lo sviluppatore non ha accesso al tuo database privato.</p>
+    </section>
+
+    <section>
+      <h2>Invio degli ordini</h2>
+      <p>Quando tocchi "Invia su WhatsApp", "Email" o "Condividi", l'app apre l'app che scegli con il messaggio già scritto. Il messaggio parte solo se lo invii tu, e da quel momento vale l'informativa dell'app che hai usato (es. WhatsApp, Mail).</p>
+    </section>
+
+    <section>
+      <h2>Cosa l'app non fa</h2>
+      <ul>
+        <li>Non raccoglie dati personali sullo sviluppatore o su server esterni.</li>
+        <li>Non usa strumenti di analisi, pubblicità o tracciamento.</li>
+        <li>Non accede alla tua posizione, ai contatti, alle foto o al microfono.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Versione di prova (TestFlight)</h2>
+      <p>Se usi l'app tramite TestFlight, Apple può condividere con lo sviluppatore informazioni tecniche come i rapporti sugli arresti anomali, il modello del dispositivo e i commenti che scegli di inviare. Questi dati sono gestiti da Apple secondo la sua informativa privacy e servono solo a correggere gli errori dell'app.</p>
+    </section>
+
+    <section>
+      <h2>Per quanto tempo e come cancellarli</h2>
+      <p>I dati restano finché non li cancelli. Puoi farlo in qualsiasi momento:</p>
+      <ul>
+        <li>dall'app, in Catalogo → Cancella tutti i dati (anche da iCloud);</li>
+        <li>eliminando l'app dal dispositivo;</li>
+        <li>dalle impostazioni iCloud del tuo dispositivo.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>I tuoi diritti</h2>
+      <p>Secondo il Regolamento europeo sulla protezione dei dati (GDPR) puoi chiedere informazioni, rettifica o cancellazione dei tuoi dati scrivendo all'indirizzo qui sopra. Dato che i dati restano sui tuoi dispositivi e nel tuo iCloud, nella maggior parte dei casi puoi gestirli direttamente dall'app. Hai anche il diritto di presentare un reclamo al Garante per la protezione dei dati personali.</p>
+    </section>
+
+    <section>
+      <h2>Minori</h2>
+      <p>L'app è pensata per chi lavora nella ristorazione e non è rivolta ai minori di 14 anni.</p>
+    </section>
+
+    <section>
+      <h2>Modifiche</h2>
+      <p>Se l'informativa cambia, la versione aggiornata viene pubblicata in questa pagina con la nuova data.</p>
+    </section>
+
+    <footer>
+      Ultimo aggiornamento: 16 novembre 2026
+    </footer>
+  </div>
+</main>
+</body>
+</html>
